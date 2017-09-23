@@ -30,6 +30,9 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="EditorPlaceholderEffectSamplePage.xaml" />
+    <EmbeddedResource Include="Pages\EditorPlaceholderEffectPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -39,6 +42,9 @@
       <DependentUpon>EditorPlaceholderEffectSamplePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pages\EditorPlaceholderEffectPage.xaml.cs">
+      <DependentUpon>EditorPlaceholderEffectPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
