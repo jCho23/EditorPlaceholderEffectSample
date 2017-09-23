@@ -45,6 +45,7 @@
     <Compile Include="Pages\EditorPlaceholderEffectPage.xaml.cs">
       <DependentUpon>EditorPlaceholderEffectPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\EditorWithPlaceholder.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
